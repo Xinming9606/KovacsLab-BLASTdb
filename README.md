@@ -14,4 +14,5 @@ cp -r /home/xuxm/KovacsLab-BLASTdb/ /path/to/your/home
 To create your own BLAST database from a FASTA file:
 
 ```bash
+micromamba activate blast #only in IBL server
 makeblastdb -in /path/to/your/home/*.fasta -dbtype nucl -out Elongation_factor_Tu2
